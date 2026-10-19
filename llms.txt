@@ -1,0 +1,30 @@
+# Notícias do Brasil
+
+> Notícias do Brasil: segundo turno das eleições, fim da escala 6x1, Selic, Enem 2026, saúde e a agenda das próximas semanas, com link para as fontes.
+
+Site de notícias em português do Brasil que resume, em linguagem simples, os principais fatos do dia sobre política, economia, educação e saúde. Cada notícia tem página própria, data de publicação e link para as fontes originais. Atualizado em 19 de outubro de 2026.
+
+## Notícias
+
+- [Enem 2026 tem mais de 5 milhões de inscritos](https://noticiasdobrasil.site/noticia/enem/): O Ministério da Educação confirmou 5.055.818 inscrições, alta de 5,08% sobre 2025. As provas serão aplicadas em 8 e 15 de novembro, em todos os estados e no Distrito Federal, e a rede de aplicação ganhou 95 municípios…
+- [Dia Nacional da Vacinação lembra: confira a caderneta](https://noticiasdobrasil.site/noticia/vacinacao/): A data, celebrada em 17 de outubro, reforça a importância de manter o cartão de vacinação em dia. As vacinas do calendário nacional são oferecidas gratuitamente pelo SUS nas unidades básicas de saúde.
+- [Congresso promulga o fim da escala 6x1](https://noticiasdobrasil.site/noticia/seis-por-um/): A jornada máxima cai de 44 para 40 horas por semana, com dois dias de descanso e sem redução de salário.
+- [Fim da 6x1: o que muda na jornada](https://noticiasdobrasil.site/noticia/jornada-6x1/): A emenda reduz o limite semanal de 44 para 40 horas sem cortar salário, em duas etapas. A Fazenda e o setor produtivo acompanham o impacto, enquanto Lula afirma que o temor de crise é "mentira", segundo a Gazeta do Povo.
+- [Agentes de saúde ganham aposentadoria especial](https://noticiasdobrasil.site/noticia/agentes/): Na mesma sessão, o Congresso promulgou a regra de aposentadoria para agentes comunitários de saúde e de combate às endemias: idade mínima de 57 anos para mulheres e 60 para homens, com 25 anos de contribuição na função…
+- [PEC da Segurança sai da pauta do Senado](https://noticiasdobrasil.site/noticia/pec-seguranca/): O presidente do Senado, Davi Alcolumbre, retirou a PEC da Segurança (PEC 18/2025) da votação de quinta-feira (15), depois de um impasse sobre a maioridade penal.
+- [Congresso terá a maior bancada feminina da história](https://noticiasdobrasil.site/noticia/mulheres/): Serão 109 deputadas e 18 senadoras a partir de 2027, mas as mulheres ainda ocuparão pouco mais de um quinto das cadeiras.
+- [Flávio Bolsonaro e Lula disputam o segundo turno da eleição para presidente](https://noticiasdobrasil.site/noticia/segundo-turno/): Flávio (PL) teve 47,04% dos votos válidos e Lula (PT), 45,15%. Os dois voltam às urnas no próximo domingo.
+- [Copom reduz a Selic para 13,75% ao ano](https://noticiasdobrasil.site/noticia/selic/): O Comitê de Política Monetária cortou a taxa básica em 0,25 ponto percentual, de 14% para 13,75%, em decisão unânime. Foi o quinto corte seguido do ciclo. O Banco Central diz que a inflação desacelerou, mas segue acima…
+
+## Seções
+
+- [Política](https://noticiasdobrasil.site/secao/politica/)
+- [Brasil](https://noticiasdobrasil.site/secao/brasil/)
+- [Economia](https://noticiasdobrasil.site/secao/economia/)
+- [Educação](https://noticiasdobrasil.site/secao/educacao/)
+- [Saúde](https://noticiasdobrasil.site/secao/saude/)
+
+## Institucional
+
+- [Sobre](https://noticiasdobrasil.site/sobre/): quem somos e como os textos são produzidos
+- [Política editorial](https://noticiasdobrasil.site/politica-editorial/): fontes, correções e atualização
