@@ -1,4 +1,5 @@
 {
+  "fonte_noticias": "https://clinicaroots.com.br/sites-de-noticia/noticias-do-brasil/noticias.json",
   "site": {
     "nome": "Notícias do Brasil",
     "url": "https://noticiasdobrasil.site",

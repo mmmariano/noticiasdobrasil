@@ -1,6 +1,26 @@
 # Notícias do Brasil
 
-Site estático gerado a partir do `noticias.json`. Para publicar uma notícia, edite só esse arquivo.
+Site estático gerado a partir de um `noticias.json`.
+
+## De onde vêm as notícias
+O `gerar.js` baixa as notícias de `https://clinicaroots.com.br/sites-de-noticia/noticias-do-brasil/noticias.json` (endereço definido em `fonte_noticias`, no topo do `noticias.json` do repositório).
+- O arquivo remoto pode ter só a lista, `{"noticias": [ ... ]}`, ou o arquivo completo. O que ele trouxer substitui o que está no repositório.
+- Se o download falhar, o gerador usa as notícias do `noticias.json` do repositório e avisa no log.
+- Se o arquivo remoto tiver erro de JSON, o build falha e o site anterior continua no ar.
+
+## Como publicar depois de atualizar o JSON
+Crie um **Deploy Hook** na Vercel (Settings → Git → Deploy Hooks). Chamar o endereço dele (POST) dispara um novo deploy, que baixa o JSON e recria todas as páginas.
+
+Exemplo em PHP, para rodar depois de salvar o `noticias.json`:
+```php
+$ch = curl_init('COLE_AQUI_O_LINK_DO_DEPLOY_HOOK');
+curl_setopt_array($ch, [CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true]);
+curl_exec($ch);
+curl_close($ch);
+```
+Pelo terminal: `curl -X POST "COLE_AQUI_O_LINK_DO_DEPLOY_HOOK"`.
+
+## Se preferir editar aqui no GitHub
 
 ## Como adicionar uma notícia
 1. No GitHub, abra `noticias.json` e clique no lápis (Edit).

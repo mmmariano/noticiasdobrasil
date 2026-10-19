@@ -59,12 +59,37 @@ const semTags = (h) => String(h)
 const ldjson = (o) => '<script type="application/ld+json">' + JSON.stringify(o).replace(/</g, '\\u003c') + '</script>';
 
 // ---------- leitura e validação ----------
-let dados;
-try {
-  dados = JSON.parse(fs.readFileSync(path.join(RAIZ, 'noticias.json'), 'utf8'));
-} catch (e) {
-  falha('o arquivo não é um JSON válido (' + e.message + '). Confira vírgulas, aspas e chaves.');
+function baixar(url) {
+  const alvo = url + (url.includes('?') ? '&' : '?') + 't=' + Date.now();
+  const codigo = "fetch(process.argv[1],{headers:{'cache-control':'no-cache'}}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}).then(function(t){process.stdout.write(t)}).catch(function(e){console.error(e.message);process.exit(2)})";
+  return require('child_process').execFileSync(process.execPath, ['-e', codigo, alvo], { encoding: 'utf8', timeout: 30000, maxBuffer: 50 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] });
 }
+
+function carregarDados() {
+  let base = {};
+  const local = path.join(RAIZ, 'noticias.json');
+  if (fs.existsSync(local)) {
+    try { base = JSON.parse(fs.readFileSync(local, 'utf8')); } catch (e) { falha('o noticias.json do repositório não é um JSON válido (' + e.message + ').'); }
+  }
+  const url = process.env.NOTICIAS_URL || base.fonte_noticias;
+  if (!url) return base;
+  try {
+    const texto = baixar(url);
+    let remoto;
+    try { remoto = JSON.parse(texto); } catch (e) { falha('o arquivo baixado de ' + url + ' não é um JSON válido (' + e.message + '). Confira vírgulas, aspas e chaves.'); }
+    if (Array.isArray(remoto)) remoto = { noticias: remoto };
+    console.log('Notícias lidas de ' + url);
+    return Object.assign({}, base, remoto);
+  } catch (e) {
+    if (base.noticias && base.noticias.length) {
+      console.warn('AVISO: não consegui baixar ' + url + ' (' + String(e.stderr || e.message).trim() + '). Usando as notícias do noticias.json do repositório.');
+      return base;
+    }
+    falha('não consegui baixar ' + url + ' (' + String(e.stderr || e.message).trim() + ').');
+  }
+}
+
+const dados = carregarDados();
 
 const site = dados.site || falha('falta o bloco "site".');
 const URL = String(site.url || '').replace(/\/+$/, '');
