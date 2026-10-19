@@ -1,32 +1,25 @@
 # Notícias do Brasil
 
-> Notícias do Brasil: segundo turno das eleições, fim da escala 6x1, Selic, Enem 2026, saúde e a agenda das próximas semanas, com link para as fontes.
+> Portal estático de notícias e reportagens ilustradas sobre o Brasil: política, economia, meio ambiente, turismo e esportes. Conteúdo em português do Brasil.
 
-Site de notícias em português do Brasil que resume, em linguagem simples, os principais fatos do dia sobre política, economia, educação e saúde. Cada notícia tem página própria, data de publicação e link para as fontes originais. Atualizado em 19 de outubro de 2026.
+## Páginas
+- [Página inicial](https://noticiasdobrasil.site/): destaques e seções
+- [Todas as notícias](https://noticiasdobrasil.site/noticias/): arquivo com filtro por editoria
 
 ## Notícias
+- [Congresso Nacional: as duas cúpulas de Niemeyer que viraram símbolo da democracia](https://noticiasdobrasil.site/noticias/congresso-nacional-niemeyer.html): Projetado por Oscar Niemeyer, o edifício em Brasília reúne Senado e Câmara sob duas cúpulas opostas e é um dos cartões-postais do país.
+- [Esplanada dos Ministérios: o eixo monumental onde Brasília decide](https://noticiasdobrasil.site/noticias/esplanada-dos-ministerios.html): Prédios alinhados dos dois lados de um gramado enorme conduzem o olhar até o Congresso Nacional.
+- [Avenida Paulista: do café ao coração financeiro de São Paulo](https://noticiasdobrasil.site/noticias/avenida-paulista.html): Inaugurada em 1891 entre mansões de barões do café, a avenida hoje concentra bancos, escritórios e cultura.
+- [Paulista em pé: a arquitetura que moldou o skyline paulistano](https://noticiasdobrasil.site/noticias/paulista-arquitetura-vertical.html): Edifícios como o Parque Avenida, no número 1776, mostram como a avenida virou vitrine da verticalização.
+- [Amazônia vista do alto: a copa da mata ao norte de Manaus](https://noticiasdobrasil.site/noticias/floresta-amazonica-manaus.html): De uma torre de observação, a floresta mostra a escala da maior floresta tropical do planeta.
+- [Pantanal: a maior área úmida da América do Sul e sua onça-pintada](https://noticiasdobrasil.site/noticias/pantanal-area-umida.html): A planície que alterna cheia e seca abriga fauna rara, e a onça é uma de suas estrelas.
+- [Onça-pintada: o maior felino das Américas e seu papel na natureza](https://noticiasdobrasil.site/noticias/onca-pintada-predadora.html): Predadora de topo, ela ajuda a manter o equilíbrio de rios, matas e campos.
+- [Cataratas do Iguaçu: centenas de quedas na fronteira com a Argentina](https://noticiasdobrasil.site/noticias/cataratas-do-iguacu.html): Perto da tríplice fronteira, o conjunto de quedas é um dos cenários naturais mais visitados do Brasil.
+- [Lençóis Maranhenses: o deserto que se enche de lagoas](https://noticiasdobrasil.site/noticias/lencois-maranhenses.html): Dunas brancas e lagoas de água doce formam, no Maranhão, uma paisagem que parece deserto, mas não é.
+- [Cristo Redentor: o símbolo do Rio de Janeiro no alto do Corcovado](https://noticiasdobrasil.site/noticias/cristo-redentor-corcovado.html): A estátua inaugurada em 1931 virou o principal cartão-postal da cidade.
+- [Maracanã: o estádio que nasceu para a Copa de 1950](https://noticiasdobrasil.site/noticias/maracana-historia.html): Casa de clubes cariocas e da seleção, o estádio virou palco de títulos, shows e momentos marcantes.
+- [Maracanã nos megaeventos: Copa de 2014 e Olimpíadas de 2016](https://noticiasdobrasil.site/noticias/maracana-copa-olimpiadas.html): Reformado para o Mundial, o estádio recebeu a final da Copa e as cerimônias dos Jogos do Rio.
 
-- [Pesquisas mostram disputa apertada a seis dias do segundo turno](https://noticiasdobrasil.site/noticia/pesquisas/): Na maior parte dos levantamentos divulgados entre 14 e 19 de outubro, Flávio Bolsonaro aparece numericamente à frente de Lula nos votos válidos, mas quase sempre dentro da margem de erro. Só a Vox Brasil mostra Lula à…
-- [Enem 2026 será nos dias 8 e 15 de novembro, com mais de 5 milhões de inscritos](https://noticiasdobrasil.site/noticia/enem/): O Enem 2026 tem 5.055.818 inscrições confirmadas, segundo balanço do MEC de 3 de julho, alta de 5,08% sobre 2025. As provas serão aplicadas em 8 e 15 de novembro, em todos os estados e no Distrito Federal.
-- [Lula e Flávio fazem o primeiro debate do segundo turno, na Band](https://noticiasdobrasil.site/noticia/debate-band/): Foi o primeiro encontro direto entre os dois na campanha. Segurança pública, economia, saúde, relações internacionais e trabalho estiveram na pauta, em um debate marcado por provocações e interrupções. O último debate…
-- [Dia Nacional da Vacinação lembra: confira a caderneta](https://noticiasdobrasil.site/noticia/vacinacao/): O Dia Nacional da Vacinação, lembrado todo 17 de outubro, reforça a importância de manter a caderneta em dia. As vacinas do calendário nacional são oferecidas gratuitamente pelo SUS nas unidades básicas de saúde.
-- [Congresso promulga o fim da escala 6x1](https://noticiasdobrasil.site/noticia/seis-por-um/): A jornada máxima cai de 44 para 40 horas por semana, com dois dias de descanso e sem redução de salário.
-- [Fim da 6x1: o que muda na jornada](https://noticiasdobrasil.site/noticia/jornada-6x1/): A emenda reduz o limite semanal de 44 para 40 horas sem cortar salário, em duas etapas: 42 horas em 16 de dezembro de 2026 e 40 horas em 16 de dezembro de 2027, segundo o Correio da Manhã.
-- [Agentes de saúde ganham aposentadoria especial](https://noticiasdobrasil.site/noticia/agentes/): Na mesma sessão, o Congresso promulgou a Emenda Constitucional 140, com aposentadoria aos 57 anos para mulheres e 60 para homens, com 25 anos de contribuição e de atividade, para agentes comunitários de saúde e de…
-- [PEC da Segurança sai da pauta do Senado](https://noticiasdobrasil.site/noticia/pec-seguranca/): O presidente do Senado, Davi Alcolumbre, retirou a PEC da Segurança (PEC 18/2025) da votação de quinta-feira (15), depois de um impasse sobre a maioridade penal. Ainda não há nova data para a votação.
-- [Congresso terá a maior bancada feminina da história](https://noticiasdobrasil.site/noticia/mulheres/): Serão 109 deputadas e 18 senadoras a partir de 2027, mas as mulheres ainda ocuparão pouco mais de um quinto das cadeiras.
-- [Flávio Bolsonaro e Lula disputam o segundo turno da eleição para presidente](https://noticiasdobrasil.site/noticia/segundo-turno/): Flávio (PL) teve 47,03% dos votos válidos e Lula (PT), 45,16%. Os dois se enfrentam no segundo turno em 25 de outubro.
-- [Copom reduz a Selic para 13,75% ao ano](https://noticiasdobrasil.site/noticia/selic/): O Comitê de Política Monetária cortou a taxa básica em 0,25 ponto percentual, de 14% para 13,75%, em decisão unânime. Foi o quinto corte consecutivo. O Copom projeta IPCA de 5,2% em 2026, acima do teto da meta, de 4,5%.
-
-## Seções
-
-- [Política](https://noticiasdobrasil.site/secao/politica/)
-- [Brasil](https://noticiasdobrasil.site/secao/brasil/)
-- [Economia](https://noticiasdobrasil.site/secao/economia/)
-- [Educação](https://noticiasdobrasil.site/secao/educacao/)
-- [Saúde](https://noticiasdobrasil.site/secao/saude/)
-
-## Institucional
-
-- [Sobre](https://noticiasdobrasil.site/sobre/): quem somos e como os textos são produzidos
-- [Política editorial](https://noticiasdobrasil.site/politica-editorial/): fontes, correções e atualização
+## Observações
+- Imagens hospedadas na Wikimedia Commons, com crédito e link do arquivo em cada notícia.
+- Mapa do site: https://noticiasdobrasil.site/sitemap.xml

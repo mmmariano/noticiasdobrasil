@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://noticiasdobrasil.site/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/secao/politica/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/secao/brasil/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/secao/economia/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/secao/educacao/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/secao/saude/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/pesquisas/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/enem/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/debate-band/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/vacinacao/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/seis-por-um/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/jornada-6x1/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/agentes/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/pec-seguranca/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/mulheres/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/segundo-turno/</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/noticia/selic/</loc><lastmod>2026-09-16</lastmod></url>
-  <url><loc>https://noticiasdobrasil.site/sobre/</loc></url>
-  <url><loc>https://noticiasdobrasil.site/politica-editorial/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://noticiasdobrasil.site/</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/congresso-nacional-niemeyer.html</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Brazilian_National_Congress.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/esplanada-dos-ministerios.html</loc><lastmod>2026-10-18</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Ministries_Esplanade_Brasilia.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/avenida-paulista.html</loc><lastmod>2026-10-17</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Building_in_Paulista_Avenue_09.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/paulista-arquitetura-vertical.html</loc><lastmod>2026-10-16</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Avenida_Building_in_Paulista_Avenue.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/floresta-amazonica-manaus.html</loc><lastmod>2026-10-15</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Manaus_forest.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/pantanal-area-umida.html</loc><lastmod>2026-10-14</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/On%C3%A7a_do_Pantanal.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/onca-pintada-predadora.html</loc><lastmod>2026-10-13</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar_%28Panthera_onca_palustris%29_male_Three_Brothers_River_2.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/cataratas-do-iguacu.html</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Iguazu_Falls_Cataratas_Brazil_Side_Luca_Galuzzi_2005.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/lencois-maranhenses.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/cristo-redentor-corcovado.html</loc><lastmod>2026-10-10</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Christ_the_Redeemer_-_Cristo_Redentor.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/maracana-historia.html</loc><lastmod>2026-10-09</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Maracan%C3%A3_Stadium_in_Rio_de_Janeiro.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/maracana-copa-olimpiadas.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Maracana_Stadium_June_2013.jpg?width=1200</image:loc></image:image></url>
 </urlset>
