@@ -6,6 +6,28 @@ Site de notícias em português do Brasil que resume, em linguagem simples, os p
 
 ---
 
+## Pesquisas mostram disputa apertada a seis dias do segundo turno
+
+URL: https://noticiasdobrasil.site/noticia/pesquisas/
+Publicado em: 2026-10-19
+Seção: Política
+
+A seis dias da votação, as pesquisas de segundo turno indicam uma disputa apertada entre Flávio Bolsonaro (PL) e Lula (PT). O Poder360 reuniu os levantamentos com entrevistas feitas de 7 a 18 de outubro, todos em votos válidos, que desconsideram brancos e nulos, como na contagem oficial.
+
+### Os números mais recentes
+
+- PoderData/Aya (divulgada em 19/10): Flávio 52% e Lula 48%.
+- Vox Brasil (18/10): Lula 51% e Flávio 49%.
+- CNT/MDA (16/10): Flávio 50,5% e Lula 49,5%.
+- Datafolha (15/10): Flávio 51% e Lula 49%. Na rodada anterior, de 8/10, era 52% a 48%.
+- Quaest (14/10): Flávio 51,1% e Lula 48,9%.
+
+A margem de erro do Datafolha é de 2 pontos percentuais para mais ou para menos, o que na prática indica empate técnico em boa parte dos cenários. Pesquisa não é previsão: o resultado só é conhecido com a apuração dos votos, no domingo (25).
+
+Fontes: [Poder360](https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-a-6-dias-da-eleicao/), [CNN Brasil (Datafolha)](https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/)
+
+---
+
 ## Enem 2026 tem mais de 5 milhões de inscritos
 
 URL: https://noticiasdobrasil.site/noticia/enem/
@@ -21,6 +43,29 @@ O Ministério da Educação confirmou 5.055.818 inscrições, alta de 5,08% sobr
 - O maior número de inscritos da história continua sendo o de 2014, com 8.722.290.
 
 Fontes: [Sul21 (Agência Brasil)](https://sul21.com.br/?p=298369), [Itatiaia](https://www.itatiaia.com.br/educacao/educacao-educacao/inscricao-do-enem-2026-comeca-nesta-segunda-25-saiba-como-fazer/)
+
+---
+
+## Lula e Flávio fazem o primeiro debate do segundo turno, na Band
+
+URL: https://noticiasdobrasil.site/noticia/debate-band/
+Publicado em: 2026-10-18
+Seção: Política
+
+O presidente Lula (PT) e o senador Flávio Bolsonaro (PL) participaram no domingo (18), em São Paulo, do primeiro debate direto entre os dois nesta eleição. Nenhum dos dois havia ido aos debates do primeiro turno. O encontro, promovido pela Band, teve três blocos e foi marcado por provocações e momentos em que os mediadores precisaram intervir.
+
+### O que cada lado levou ao debate
+
+- Lula propôs que os dois candidatos abram os sigilos bancário e telefônico, incluindo os de familiares, antes do segundo turno. Flávio disse não ter nada a esconder, mas não confirmou expressamente que aceitaria a proposta nos termos apresentados.
+- Lula cobrou explicações sobre o dinheiro pedido ao banqueiro Daniel Vorcaro, do Banco Master, para financiar um filme sobre Jair Bolsonaro. Flávio, por sua vez, cobrou explicações sobre pessoas próximas à família de Lula no caso dos descontos indevidos do INSS.
+- Na segurança pública, Flávio defendeu classificar facções criminosas como narcoterroristas e ampliar câmeras de reconhecimento facial. Lula cobrou apoio à PEC da Segurança e criticou a atuação dos governos estaduais.
+- Na saúde, Lula questionou se Flávio pretende privatizar o SUS. No campo internacional, falou em soberania sobre minerais críticos e na relação de Flávio com os Estados Unidos.
+
+### Próximos passos
+
+O último debate da campanha está previsto para sexta-feira (23), na TV Globo, no Rio de Janeiro. O segundo turno será no domingo, 25 de outubro.
+
+Fontes: [Agência Brasil](https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-flavio-fazem-primeiro-debate-das-eleicoes-na-band), [Congresso em Foco](https://www.congressoemfoco.com.br/noticia/123351/veja-o-primeiro-debate-entre-lula-e-flavio-bolsonaro-na-band), [93 Notícias](https://93noticias.com.br/debate-na-band-principais-momentos-do-confronto-entre/)
 
 ---
 
@@ -118,10 +163,10 @@ URL: https://noticiasdobrasil.site/noticia/segundo-turno/
 Publicado em: 2026-10-04
 Seção: Política
 
-Nenhum candidato passou de 50% no primeiro turno, em 4 de outubro. Com 99,97% das urnas apuradas, o senador Flávio Bolsonaro (PL) ficou na frente, e o presidente Lula (PT), que busca a reeleição, em segundo. A nova votação é no domingo, 25 de outubro.
+Nenhum candidato passou de 50% no primeiro turno, em 4 de outubro. Flávio Bolsonaro (PL) ficou na frente, e o presidente Lula (PT), que busca a reeleição, em segundo. A nova votação é no domingo, 25 de outubro.
 
-- 47,04%: Flávio Bolsonaro (PL), 56,1 milhões de votos
-- 45,15%: Lula (PT), 53,8 milhões de votos
+- 47,03%: Flávio Bolsonaro (PL), 56,1 milhões de votos
+- 45,16%: Lula (PT), 53,9 milhões de votos
 
 O comparecimento foi de 78,92% do eleitorado. Em terceiro lugar ficou o escritor Augusto Cury (Avante), com 2,89% dos votos válidos.
 
@@ -130,7 +175,8 @@ O comparecimento foi de 78,92% do eleitorado. Em terceiro lugar ficou o escritor
 - Quem vence leva a Presidência da República para o mandato que começa em 2027.
 - Flávio tem 45 anos e é senador pelo Rio de Janeiro. Lula tem 80 anos e disputa o quarto mandato como presidente. Os vices são Alfredo Gaspar (PL) e Geraldo Alckmin (PSB).
 - Em Minas Gerais, segundo maior colégio eleitoral, Flávio teve 5,77 milhões de votos e Lula, 5,18 milhões. No segundo turno, o estado vota apenas para presidente.
-- Pesquisas citadas pela CNN Brasil depois do primeiro turno apontam disputa apertada, como o PoderData/AYA, com empate em 50%, e a Futura, com 50,8% para Flávio e 49,2% para Lula.
+- O último debate da campanha será na sexta-feira (23), na TV Globo. O primeiro debate direto entre os dois foi no domingo (18), na Band.
+- As pesquisas mais recentes indicam disputa apertada. Veja os números na notícia “Pesquisas mostram disputa apertada a seis dias do segundo turno”.
 
 Fontes: [Agência Senado](https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente), [CNN Brasil](https://www.cnnbrasil.com.br/eleicoes/no-estado-que-sempre-acerta-presidente-flavio-vence-lula-em-mg-no-1o-turno/)
 

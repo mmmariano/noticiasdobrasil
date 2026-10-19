@@ -127,6 +127,7 @@ const hashAssets = crypto.createHash('md5')
 const urlNoticia = (n) => '/noticia/' + n.slug + '/';
 const urlSecao = (s) => '/secao/' + s.slug + '/';
 const abs = (p) => URL + p;
+const absImg = (u) => (u && !/^https?:\/\//.test(u) ? URL + u : u);
 const curto = (n) => n.titulo_curto || n.titulo;
 const fotoDe = (n) => (n.visual && n.visual.tipo === 'foto' ? n.visual : null);
 const modificado = (n) => n.atualizado || n.data;
@@ -223,7 +224,7 @@ function cartao(n) {
   let vis = '';
   if (f) {
     vis = '<a class="vis" href="' + urlNoticia(n) + '" tabindex="-1" aria-hidden="true"><figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="800" height="500" decoding="async" loading="lazy"></figure>' +
-      (f.credito ? '<div class="credit">Foto: ' + esc(f.credito) + '</div>' : '') + '</a>';
+      (f.credito ? '<div class="credit">' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</div>' : '') + '</a>';
   } else if (n.visual) {
     vis = '<a class="vis" href="' + urlNoticia(n) + '" tabindex="-1" aria-hidden="true">' + visualHtml(n.visual) + '</a>';
   }
@@ -246,7 +247,7 @@ function paginaNoticia(n) {
   const canonica = abs(urlNoticia(n));
   const outras = doSecao(n.secao).filter((x) => x !== n).concat(noticias.filter((x) => x.secao !== n.secao && x !== n)).slice(0, 5);
   const visual = f
-    ? '<figure>\n        <img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="720" decoding="async" fetchpriority="high">\n' + (f.credito ? '        <figcaption>Foto: ' + esc(f.credito) + '</figcaption>\n' : '') + '      </figure>'
+    ? '<figure>\n        <img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="720" decoding="async" fetchpriority="high">\n' + (f.credito ? '        <figcaption>' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</figcaption>\n' : '') + '      </figure>'
     : (n.visual ? '<div style="margin-top:1.2rem">' + visualHtml(n.visual) + '</div>' : '');
   const main = '<main class="wrap">\n  <nav class="crumbs" aria-label="Você está em">\n    <a href="/">Início</a>\n › <a href="' + urlSecao(sec) + '">' + esc(sec.nome) + '</a> › <span>' + esc(n.titulo) + '</span>\n  </nav>\n' +
     '  <div class="layout-article">\n    <article class="article">\n      <header>\n        <span class="tag">' + esc(n.rotulo) + '</span>\n        <h1>' + esc(n.titulo) + '</h1>\n' +
@@ -270,7 +271,7 @@ function paginaNoticia(n) {
   if (f) ld[1].image = [f.url];
   if (n.fontes.length) ld[1].isBasedOn = n.fontes.map((x) => x.url);
   arquivos['noticia-' + n.slug + '.html'] = pagina({
-    titulo, descricao: desc, canonica, tipo: 'article', imagem: f && f.url, imagemAlt: f && f.alt, ld, main,
+    titulo, descricao: desc, canonica, tipo: 'article', imagem: absImg(f && f.url), imagemAlt: f && f.alt, ld, main,
     metaExtra: '<meta property="article:published_time" content="' + n.data + '">\n<meta property="article:modified_time" content="' + modificado(n) + '">\n<meta property="article:section" content="' + esc(sec.nome) + '">\n'
   });
 }
@@ -292,7 +293,7 @@ function paginaSecao(s) {
       { '@type': 'ListItem', position: 2, name: s.nome, item: canonica }
     ]
   }];
-  arquivos['secao-' + s.slug + '.html'] = pagina({ titulo: s.nome + ': últimas notícias | ' + NOME, descricao: desc, canonica, ld, main, imagem: (lista[0] && fotoDe(lista[0]) || {}).url, imagemAlt: (lista[0] && fotoDe(lista[0]) || {}).alt });
+  arquivos['secao-' + s.slug + '.html'] = pagina({ titulo: s.nome + ': últimas notícias | ' + NOME, descricao: desc, canonica, ld, main, imagem: absImg((lista[0] && fotoDe(lista[0]) || {}).url), imagemAlt: (lista[0] && fotoDe(lista[0]) || {}).alt });
 }
 
 function paginaHome() {
@@ -310,7 +311,7 @@ function paginaHome() {
         : '<figure>' + visualHtml(n.visual || { tipo: 'texto', alt: n.titulo, texto: n.titulo }) + '</figure>';
       main += '      <article class="slide" aria-label="' + (i + 1) + ' de ' + slides.length + '">\n        ' + fig + '\n        <div class="txt">\n          <a class="tag" href="' + urlSecao(sec) + '">' + esc(n.rotulo_destaque || n.rotulo) + '</a>\n' +
         '          <h2><a href="' + urlNoticia(n) + '">' + esc(n.titulo_destaque || n.titulo) + '</a></h2>\n          <p>' + esc(n.resumo) + '</p>\n          <span class="meta">' + esc(sec.nome) + ' · ' + dataCurta(n.data) + '</span>\n        </div>\n' +
-        (f && f.credito ? '        <div class="credit">Foto: ' + esc(f.credito) + '</div>\n' : '') + '      </article>\n';
+        (f && f.credito ? '        <div class="credit">' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</div>\n' : '') + '      </article>\n';
     });
     main += '    </div>\n    <div class="ctrl">\n      <div class="dots" id="dots"></div>\n      <button type="button" id="prev" aria-label="Destaque anterior">‹</button>\n      <button type="button" id="next" aria-label="Próximo destaque">›</button>\n    </div>\n  </section>\n';
   }
@@ -327,7 +328,7 @@ function paginaHome() {
       const votos = m.corpo.find((b) => b && b.votos);
       const outras = noticias.filter((x) => x !== m).slice(0, 4);
       main += '  <div class="two">\n    <article class="lead" id="' + m.slug + '">\n' +
-        (f ? '      <figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="640" decoding="async" loading="lazy"></figure>' + (f.credito ? '<div class="credit">Foto: ' + esc(f.credito) + '</div>' : '') : '') +
+        (f ? '      <figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="640" decoding="async" loading="lazy"></figure>' + (f.credito ? '<div class="credit">' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</div>' : '') : '') +
         '      <div class="body">\n        <span class="tag">' + esc(m.rotulo) + '</span>\n        <h3><a href="' + urlNoticia(m) + '" style="text-decoration:none">' + esc(m.titulo) + '</a></h3>\n        <p>' + primeiroP + '</p>\n' +
         (votos ? '        <div class="votes">\n' + votos.votos.map((v) => '          <div><b>' + esc(v.valor) + '</b><span>' + esc(v.texto) + '</span></div>').join('\n') + '\n        </div>\n' : '') +
         '        <a class="more" href="' + urlNoticia(m) + '">Ler notícia completa →</a>\n      </div>\n    </article>\n    <div>\n' +
@@ -349,7 +350,7 @@ function paginaHome() {
     mainEntity: { '@type': 'ItemList', itemListElement: slides.map((n, i) => ({ '@type': 'ListItem', position: i + 1, name: n.titulo_destaque || n.titulo, url: abs(urlNoticia(n)) })) }
   }];
   arquivos['index.html'] = pagina({
-    titulo: site.titulo_home || NOME, descricao: site.descricao, canonica: URL + '/', imagem: primeiraFoto && primeiraFoto.url, imagemAlt: primeiraFoto && primeiraFoto.alt,
+    titulo: site.titulo_home || NOME, descricao: site.descricao, canonica: URL + '/', imagem: absImg(primeiraFoto && primeiraFoto.url), imagemAlt: primeiraFoto && primeiraFoto.alt,
     preload: primeiraFoto && primeiraFoto.url, ld, main
   });
 }

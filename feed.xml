@@ -8,6 +8,15 @@
   <lastBuildDate>Mon, 19 Oct 2026 12:00:00 +0000</lastBuildDate>
   <atom:link href="https://noticiasdobrasil.site/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Pesquisas mostram disputa apertada a seis dias do segundo turno</title>
+    <link>https://noticiasdobrasil.site/noticia/pesquisas/</link>
+    <guid isPermaLink="true">https://noticiasdobrasil.site/noticia/pesquisas/</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+    <category>Política</category>
+    <description>Na maior parte dos levantamentos divulgados entre 14 e 19 de outubro, Flávio Bolsonaro aparece numericamente à frente de Lula nos votos válidos, mas quase sempre dentro da margem de erro. Só a Vox Brasil mostra Lula à frente.</description>
+    <content:encoded><![CDATA[<p>A seis dias da votação, as pesquisas de segundo turno indicam uma disputa apertada entre Flávio Bolsonaro (PL) e Lula (PT). O Poder360 reuniu os levantamentos com entrevistas feitas de 7 a 18 de outubro, todos em votos válidos, que desconsideram brancos e nulos, como na contagem oficial.</p>]]></content:encoded>
+  </item>
+  <item>
     <title>Enem 2026 tem mais de 5 milhões de inscritos</title>
     <link>https://noticiasdobrasil.site/noticia/enem/</link>
     <guid isPermaLink="true">https://noticiasdobrasil.site/noticia/enem/</guid>
@@ -15,6 +24,15 @@
     <category>Educação</category>
     <description>O Ministério da Educação confirmou 5.055.818 inscrições, alta de 5,08% sobre 2025. As provas serão aplicadas em 8 e 15 de novembro, em todos os estados e no Distrito Federal, e a rede de aplicação ganhou 95 municípios para reduzir deslocamentos.</description>
     <content:encoded><![CDATA[<p>O Ministério da Educação confirmou 5.055.818 inscrições, alta de 5,08% sobre 2025. As provas serão aplicadas em 8 e 15 de novembro, em todos os estados e no Distrito Federal, e a rede de aplicação ganhou 95 municípios para reduzir deslocamentos.</p>]]></content:encoded>
+  </item>
+  <item>
+    <title>Lula e Flávio fazem o primeiro debate do segundo turno, na Band</title>
+    <link>https://noticiasdobrasil.site/noticia/debate-band/</link>
+    <guid isPermaLink="true">https://noticiasdobrasil.site/noticia/debate-band/</guid>
+    <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
+    <category>Política</category>
+    <description>Foi o primeiro encontro direto entre os dois na campanha. Segurança pública, economia, saúde, relações internacionais e trabalho estiveram na pauta, em um debate marcado por provocações e interrupções. O último debate está marcado para sexta-feira (23), na TV Globo.</description>
+    <content:encoded><![CDATA[<p>O presidente Lula (PT) e o senador Flávio Bolsonaro (PL) participaram no domingo (18), em São Paulo, do primeiro debate direto entre os dois nesta eleição. Nenhum dos dois havia ido aos debates do primeiro turno. O encontro, promovido pela Band, teve três blocos e foi marcado por provocações e momentos em que os mediadores precisaram intervir.</p>]]></content:encoded>
   </item>
   <item>
     <title>Dia Nacional da Vacinação lembra: confira a caderneta</title>
@@ -58,7 +76,7 @@
     <guid isPermaLink="true">https://noticiasdobrasil.site/noticia/pec-seguranca/</guid>
     <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
     <category>Brasil</category>
-    <description>O presidente do Senado, Davi Alcolumbre, retirou a PEC da Segurança (PEC 18/2025) da votação de quinta-feira (15), depois de um impasse sobre a maioridade penal.</description>
+    <description>O presidente do Senado, Davi Alcolumbre, retirou a PEC da Segurança (PEC 18/2025) da votação de quinta-feira (15), depois de um impasse sobre a maioridade penal. Ainda não há nova data para a votação.</description>
     <content:encoded><![CDATA[<p>O presidente do Senado, Davi Alcolumbre, retirou a PEC da Segurança (PEC 18/2025) da votação de quinta-feira (15), depois de um impasse sobre a maioridade penal.</p>]]></content:encoded>
   </item>
   <item>
@@ -76,8 +94,8 @@
     <guid isPermaLink="true">https://noticiasdobrasil.site/noticia/segundo-turno/</guid>
     <pubDate>Sun, 04 Oct 2026 12:00:00 +0000</pubDate>
     <category>Política</category>
-    <description>Flávio (PL) teve 47,04% dos votos válidos e Lula (PT), 45,15%. Os dois voltam às urnas no próximo domingo.</description>
-    <content:encoded><![CDATA[<p>Nenhum candidato passou de 50% no primeiro turno, em 4 de outubro. Com 99,97% das urnas apuradas, o senador Flávio Bolsonaro (PL) ficou na frente, e o presidente Lula (PT), que busca a reeleição, em segundo. A nova votação é no domingo, 25 de outubro.</p>]]></content:encoded>
+    <description>Flávio (PL) teve 47,03% dos votos válidos e Lula (PT), 45,16%. Os dois se enfrentam no segundo turno em 25 de outubro.</description>
+    <content:encoded><![CDATA[<p>Nenhum candidato passou de 50% no primeiro turno, em 4 de outubro. Flávio Bolsonaro (PL) ficou na frente, e o presidente Lula (PT), que busca a reeleição, em segundo. A nova votação é no domingo, 25 de outubro.</p>]]></content:encoded>
   </item>
   <item>
     <title>Copom reduz a Selic para 13,75% ao ano</title>
