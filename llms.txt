@@ -1,0 +1,25 @@
+# Notícias do Brasil
+
+> Portal estático de notícias e reportagens ilustradas sobre o Brasil: política, economia, meio ambiente, turismo e esportes. Conteúdo em português do Brasil.
+
+## Páginas
+- [Página inicial](https://noticiasdobrasil.site/): destaques e seções
+- [Todas as notícias](https://noticiasdobrasil.site/noticias/): arquivo com filtro por editoria
+
+## Notícias
+- [Congresso Nacional: as duas cúpulas de Niemeyer que viraram símbolo da democracia](https://noticiasdobrasil.site/noticias/congresso-nacional-niemeyer.html): Projetado por Oscar Niemeyer, o edifício em Brasília reúne Senado e Câmara sob duas cúpulas opostas e é um dos cartões-postais do país.
+- [Esplanada dos Ministérios: o eixo monumental onde Brasília decide](https://noticiasdobrasil.site/noticias/esplanada-dos-ministerios.html): Prédios alinhados dos dois lados de um gramado enorme conduzem o olhar até o Congresso Nacional.
+- [Avenida Paulista: do café ao coração financeiro de São Paulo](https://noticiasdobrasil.site/noticias/avenida-paulista.html): Inaugurada em 1891 entre mansões de barões do café, a avenida hoje concentra bancos, escritórios e cultura.
+- [Paulista em pé: a arquitetura que moldou o skyline paulistano](https://noticiasdobrasil.site/noticias/paulista-arquitetura-vertical.html): Edifícios como o Parque Avenida, no número 1776, mostram como a avenida virou vitrine da verticalização.
+- [Amazônia vista do alto: a copa da mata ao norte de Manaus](https://noticiasdobrasil.site/noticias/floresta-amazonica-manaus.html): De uma torre de observação, a floresta mostra a escala da maior floresta tropical do planeta.
+- [Pantanal: a maior área úmida da América do Sul e sua onça-pintada](https://noticiasdobrasil.site/noticias/pantanal-area-umida.html): A planície que alterna cheia e seca abriga fauna rara, e a onça é uma de suas estrelas.
+- [Onça-pintada: o maior felino das Américas e seu papel na natureza](https://noticiasdobrasil.site/noticias/onca-pintada-predadora.html): Predadora de topo, ela ajuda a manter o equilíbrio de rios, matas e campos.
+- [Cataratas do Iguaçu: centenas de quedas na fronteira com a Argentina](https://noticiasdobrasil.site/noticias/cataratas-do-iguacu.html): Perto da tríplice fronteira, o conjunto de quedas é um dos cenários naturais mais visitados do Brasil.
+- [Lençóis Maranhenses: o deserto que se enche de lagoas](https://noticiasdobrasil.site/noticias/lencois-maranhenses.html): Dunas brancas e lagoas de água doce formam, no Maranhão, uma paisagem que parece deserto, mas não é.
+- [Cristo Redentor: o símbolo do Rio de Janeiro no alto do Corcovado](https://noticiasdobrasil.site/noticias/cristo-redentor-corcovado.html): A estátua inaugurada em 1931 virou o principal cartão-postal da cidade.
+- [Maracanã: o estádio que nasceu para a Copa de 1950](https://noticiasdobrasil.site/noticias/maracana-historia.html): Casa de clubes cariocas e da seleção, o estádio virou palco de títulos, shows e momentos marcantes.
+- [Maracanã nos megaeventos: Copa de 2014 e Olimpíadas de 2016](https://noticiasdobrasil.site/noticias/maracana-copa-olimpiadas.html): Reformado para o Mundial, o estádio recebeu a final da Copa e as cerimônias dos Jogos do Rio.
+
+## Observações
+- Imagens hospedadas na Wikimedia Commons, com crédito e link do arquivo em cada notícia.
+- Mapa do site: https://noticiasdobrasil.site/sitemap.xml
