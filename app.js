@@ -3,7 +3,11 @@
 
   // Se uma foto externa não carregar, o espaço fica com a cor de fundo.
   document.querySelectorAll('img').forEach(function (img) {
-    img.addEventListener('error', function () { img.style.visibility = 'hidden'; });
+    img.addEventListener('error', function () {
+      var fb = img.getAttribute('data-fallback');
+      if (fb && img.getAttribute('src') !== fb) { img.setAttribute('src', fb); return; }
+      img.style.visibility = 'hidden';
+    });
   });
 
   // Carrossel de destaques (só existe na página inicial).

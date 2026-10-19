@@ -127,6 +127,7 @@ const hashAssets = crypto.createHash('md5')
 const urlNoticia = (n) => '/noticia/' + n.slug + '/';
 const urlSecao = (s) => '/secao/' + s.slug + '/';
 const abs = (p) => URL + p;
+const fb = (f) => (f && f.fallback ? ' data-fallback="' + esc(f.fallback) + '"' : '');
 const absImg = (u) => (u && !/^https?:\/\//.test(u) ? URL + u : u);
 const curto = (n) => n.titulo_curto || n.titulo;
 const fotoDe = (n) => (n.visual && n.visual.tipo === 'foto' ? n.visual : null);
@@ -223,7 +224,7 @@ function cartao(n) {
   const f = fotoDe(n);
   let vis = '';
   if (f) {
-    vis = '<a class="vis" href="' + urlNoticia(n) + '" tabindex="-1" aria-hidden="true"><figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="800" height="500" decoding="async" loading="lazy"></figure>' +
+    vis = '<a class="vis" href="' + urlNoticia(n) + '" tabindex="-1" aria-hidden="true"><figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '"' + fb(f) + ' width="800" height="500" decoding="async" loading="lazy"></figure>' +
       (f.credito ? '<div class="credit">' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</div>' : '') + '</a>';
   } else if (n.visual) {
     vis = '<a class="vis" href="' + urlNoticia(n) + '" tabindex="-1" aria-hidden="true">' + visualHtml(n.visual) + '</a>';
@@ -247,7 +248,7 @@ function paginaNoticia(n) {
   const canonica = abs(urlNoticia(n));
   const outras = doSecao(n.secao).filter((x) => x !== n).concat(noticias.filter((x) => x.secao !== n.secao && x !== n)).slice(0, 5);
   const visual = f
-    ? '<figure>\n        <img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="720" decoding="async" fetchpriority="high">\n' + (f.credito ? '        <figcaption>' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</figcaption>\n' : '') + '      </figure>'
+    ? '<figure>\n        <img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '"' + fb(f) + ' width="1280" height="720" decoding="async" fetchpriority="high">\n' + (f.credito ? '        <figcaption>' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</figcaption>\n' : '') + '      </figure>'
     : (n.visual ? '<div style="margin-top:1.2rem">' + visualHtml(n.visual) + '</div>' : '');
   const main = '<main class="wrap">\n  <nav class="crumbs" aria-label="Você está em">\n    <a href="/">Início</a>\n › <a href="' + urlSecao(sec) + '">' + esc(sec.nome) + '</a> › <span>' + esc(n.titulo) + '</span>\n  </nav>\n' +
     '  <div class="layout-article">\n    <article class="article">\n      <header>\n        <span class="tag">' + esc(n.rotulo) + '</span>\n        <h1>' + esc(n.titulo) + '</h1>\n' +
@@ -307,7 +308,7 @@ function paginaHome() {
       const f = fotoDe(n);
       const sec = mapaSecoes[n.secao];
       const fig = f
-        ? '<figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="720" decoding="async"' + (i === 0 ? ' fetchpriority="high"' : ' loading="lazy"') + '></figure>'
+        ? '<figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '"' + fb(f) + ' width="1280" height="720" decoding="async"' + (i === 0 ? ' fetchpriority="high"' : ' loading="lazy"') + '></figure>'
         : '<figure>' + visualHtml(n.visual || { tipo: 'texto', alt: n.titulo, texto: n.titulo }) + '</figure>';
       main += '      <article class="slide" aria-label="' + (i + 1) + ' de ' + slides.length + '">\n        ' + fig + '\n        <div class="txt">\n          <a class="tag" href="' + urlSecao(sec) + '">' + esc(n.rotulo_destaque || n.rotulo) + '</a>\n' +
         '          <h2><a href="' + urlNoticia(n) + '">' + esc(n.titulo_destaque || n.titulo) + '</a></h2>\n          <p>' + esc(n.resumo) + '</p>\n          <span class="meta">' + esc(sec.nome) + ' · ' + dataCurta(n.data) + '</span>\n        </div>\n' +
@@ -328,7 +329,7 @@ function paginaHome() {
       const votos = m.corpo.find((b) => b && b.votos);
       const outras = noticias.filter((x) => x !== m).slice(0, 4);
       main += '  <div class="two">\n    <article class="lead" id="' + m.slug + '">\n' +
-        (f ? '      <figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '" width="1280" height="640" decoding="async" loading="lazy"></figure>' + (f.credito ? '<div class="credit">' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</div>' : '') : '') +
+        (f ? '      <figure><img src="' + esc(f.url) + '" alt="' + esc(f.alt) + '"' + fb(f) + ' width="1280" height="640" decoding="async" loading="lazy"></figure>' + (f.credito ? '<div class="credit">' + esc(f.rotulo_credito || 'Foto') + ': ' + esc(f.credito) + '</div>' : '') : '') +
         '      <div class="body">\n        <span class="tag">' + esc(m.rotulo) + '</span>\n        <h3><a href="' + urlNoticia(m) + '" style="text-decoration:none">' + esc(m.titulo) + '</a></h3>\n        <p>' + primeiroP + '</p>\n' +
         (votos ? '        <div class="votes">\n' + votos.votos.map((v) => '          <div><b>' + esc(v.valor) + '</b><span>' + esc(v.texto) + '</span></div>').join('\n') + '\n        </div>\n' : '') +
         '        <a class="more" href="' + urlNoticia(m) + '">Ler notícia completa →</a>\n      </div>\n    </article>\n    <div>\n' +

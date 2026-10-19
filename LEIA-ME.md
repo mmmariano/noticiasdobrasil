@@ -13,7 +13,7 @@ O endereço bonito vem do `vercel.json`: o arquivo `noticia-selic.html` abre em 
 ## Campos de uma notícia
 - Obrigatórios: `slug` (minúsculas sem acento, números e hífen), `titulo`, `secao` (politica, brasil, economia, educacao ou saude), `data` (AAAA-MM-DD), `resumo`.
 - Opcionais: `rotulo` (etiqueta), `titulo_curto` (faixa "Últimas"), `atualizado` (AAAA-MM-DD), `destaque` (1, 2 ou 3 para o carrossel da home), `titulo_destaque`, `rotulo_destaque`.
-- `visual` (opcional), um destes formatos:
+- `visual` (opcional), um destes formatos (em `foto`, o campo opcional `fallback` aponta para uma imagem local usada se a foto externa falhar, e `rotulo_credito` troca a palavra "Foto" na legenda):
   - `{"tipo": "foto", "url": "...", "alt": "...", "credito": "Agência Senado"}`
   - `{"tipo": "texto", "texto": "44h → 40h", "alt": "..."}`
   - `{"tipo": "taxa", "valor": "13,75%", "legenda": "Selic ao ano", "alt": "..."}`
@@ -31,3 +31,9 @@ Framework Preset: **Other**. Deixe Build Command, Output Directory e Install Com
 
 ## Arquivos
 `gerar.js` (gerador, só roda no seu computador), `noticias.json` (dados), `vercel.json` (URLs e cabeçalhos), `style.css`, `app.js`, imagens e `robots.txt`.
+
+## Fotos do Pexels
+1. No pexels.com, abra a foto e copie o endereço da imagem, no formato `https://images.pexels.com/photos/ID/pexels-photo-ID.jpeg?auto=compress&cs=tinysrgb&w=1280`.
+2. No `noticias.json`, use esse endereço em `url`, escreva o `alt` (descrição da imagem) e preencha `credito` com `Nome do fotógrafo / Pexels`.
+3. Deixe `fallback` apontando para uma arte local (ex.: `/img-pesquisas.png`) para a notícia nunca ficar sem imagem.
+4. Use foto do Pexels só como imagem ilustrativa: para fatos específicos (pessoas, eventos), prefira fotos de fontes oficiais com autorização de uso.
