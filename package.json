@@ -1,0 +1,9 @@
+{
+  "name": "noticiasdobrasil",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site Notícias do Brasil: gera HTML estático a partir do noticias.json",
+  "scripts": {
+    "build": "node gerar.js"
+  }
+}
