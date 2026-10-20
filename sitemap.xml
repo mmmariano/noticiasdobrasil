@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-<url><loc>https://noticiasdobrasil.site/</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
-<url><loc>https://noticiasdobrasil.site/noticias/</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/</loc><lastmod>2026-10-20</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
+<url><loc>https://noticiasdobrasil.site/noticias/</loc><lastmod>2026-10-20</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Os_lencois.jpg?width=1200</image:loc></image:image></url>
 <url><loc>https://noticiasdobrasil.site/noticias/congresso-nacional-niemeyer.html</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Brazilian_National_Congress.jpg?width=1200</image:loc></image:image></url>
 <url><loc>https://noticiasdobrasil.site/noticias/esplanada-dos-ministerios.html</loc><lastmod>2026-10-18</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Ministries_Esplanade_Brasilia.jpg?width=1200</image:loc></image:image></url>
 <url><loc>https://noticiasdobrasil.site/noticias/avenida-paulista.html</loc><lastmod>2026-10-17</lastmod><image:image><image:loc>https://commons.wikimedia.org/wiki/Special:FilePath/Building_in_Paulista_Avenue_09.jpg?width=1200</image:loc></image:image></url>
@@ -17,4 +17,5 @@
 <url><loc>https://noticiasdobrasil.site/noticias/especialista-seo-mateus-maranho.html</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://especialistaseo.online/og-image.png</image:loc></image:image></url>
 <url><loc>https://noticiasdobrasil.site/noticias/mp-pede-ao-tse-divulgacao-ampla-de-mudancas-em-locais-de-votacao.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://noticiasdobrasil.site/noticias/tre-rj-alterou-apenas-um-local-de-votacao-no-estado-confira.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://noticiasdobrasil.site/noticias/fenaj-manifesta-indignacao-com-formato-do-debate-da-tv-band.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
